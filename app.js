@@ -1,4 +1,4 @@
-const apiUrl = 'https://<your-function-app-name>.azurewebsites.net/api/getAllInsights';
+const apiUrl = 'https://insightssummary.azurewebsites.net/api/getAllInsights';
 
 async function fetchInsights() {
     try {
