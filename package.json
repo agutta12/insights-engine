@@ -5,12 +5,29 @@
   "main": "index.js",
   "scripts": {
     "start": "lite-server",
+    "build": "react-scripts build",
     "test": "echo \"No test specified\""
   },
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "lite-server": "^2.6.1",
+    "react-scripts": "^5.0.1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "react-dom": "^18.3.1"
+  }
 }
